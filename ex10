@@ -1,0 +1,1 @@
+print('Sample string: \n a string that you "don\'t" have to escape \n This \n is a ....... multi-line \n heredoc string --------> example')
