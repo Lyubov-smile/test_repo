@@ -1,0 +1,33 @@
+class SystemBlock:
+
+    def __init__(self, processor, motherboard, price):
+        self.__processor = processor
+        self.__motherboard = motherboard
+        self.__price = price
+
+    @property
+    def processor(self):
+        return self.__processor
+
+    @processor.setter
+    def processor(self, processor):
+        self.__processor = processor
+   
+    @property
+    def motherboard(self):
+        return self.__motherboard
+
+    @motherboard.setter
+    def motherboard(self, motherboard):
+        self.__motherboard = motherboard
+    
+    @property
+    def price(self):
+        return self.__price
+
+    @price.setter
+    def price(self, price):
+        self.__price = price
+
+class Monitor:
+    pass
